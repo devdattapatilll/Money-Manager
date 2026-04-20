@@ -2,6 +2,8 @@
 
 A comprehensive personal finance application built with Next.js, featuring budget tracking, investment guidance, and financial literacy resources.
 
+**Live Demo:** [https://money-manager-vxuh.vercel.app/](https://money-manager-vxuh.vercel.app/)
+
 ![Money Manager](https://img.shields.io/badge/Money%20Manager-v2.0-blue)
 ![Next.js](https://img.shields.io/badge/Next.js-16-black)
 ![React](https://img.shields.io/badge/React-19-61DAFB)
