@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 Money Manager
 
-## Getting Started
+A comprehensive personal finance application built with Next.js, featuring budget tracking, investment guidance, and financial literacy resources.
 
-First, run the development server:
+![Money Manager](https://img.shields.io/badge/Money%20Manager-v2.0-blue)
+![Next.js](https://img.shields.io/badge/Next.js-16-black)
+![React](https://img.shields.io/badge/React-19-61DAFB)
+![Tailwind](https://img.shields.io/badge/Tailwind-4-38B2AC)
+
+## ✨ Features
+
+### 📊 Budget Tracking
+- **Income & Expense Management** - Track all your financial transactions
+- **Category-wise Breakdown** - Visual progress bars for spending by category
+- **Smart Insights** - AI-powered alerts on spending patterns
+- **Savings Rate Calculator** - Monitor your financial health
+
+### 📈 Investment Guidance
+- **Risk Profile Selector** - Conservative, Balanced, and Aggressive portfolios
+- **SIP Calculator** - Calculate future returns on systematic investments
+- **Asset Allocation** - Visual representation of portfolio distribution
+- **Investment Options** - Curated list of FD, PPF, Index Funds, Stocks, and more
+
+### 📚 Financial Literacy
+- **Educational Lessons** - Bite-sized financial education content
+- **Financial Glossary** - Key terms explained simply
+- **Daily Tips** - Actionable money management advice
+- **Quick Rules** - 50/30/20 budgeting and other golden rules
+
+### 🎨 Modern UI/UX
+- **Dark Theme** - Professional navy/purple color scheme
+- **Responsive Design** - Works on all devices
+- **Interactive Elements** - Smooth transitions and hover effects
+- **Card-based Layout** - Clean, modern interface
+
+## 🚀 Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Frontend:** React 19, TypeScript
+- **Styling:** Tailwind CSS 4
+- **Database:** Supabase
+- **Authentication:** Supabase Auth
+- **Deployment:** Vercel
+
+## 📦 Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/devdattapatilll/Money-Manager.git
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env.local
+# Add your Supabase credentials
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Environment Variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Create a `.env.local` file with:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
-## Learn More
+## 📱 Pages
 
-To learn more about Next.js, take a look at the following resources:
+- **/** - Landing page with feature showcase
+- **/dashboard** - Financial overview with insights
+- **/add** - Add income/expense transactions
+- **/invest** - Investment guidance and SIP calculator
+- **/learn** - Financial literacy content
+- **/budget** - Budget tracking by category
+- **/login** - Authentication
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Key Highlights
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Smart Insights** - Automated analysis of spending patterns
+2. **Investment Calculator** - Plan your financial future
+3. **Category Budgets** - Set and track limits for each spending category
+4. **Risk-based Recommendations** - Personalized investment suggestions
+5. **Financial Education** - Learn while you manage
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+---
+
+Built with ❤️ by [Devdatta Patil](https://github.com/devdattapatilll)
