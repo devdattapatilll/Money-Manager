@@ -1,4 +1,4 @@
-# 💰 Money Manager
+# Money Manager
 
 A comprehensive personal finance application built with Next.js, featuring budget tracking, investment guidance, and financial literacy resources.
 
@@ -9,33 +9,34 @@ A comprehensive personal finance application built with Next.js, featuring budge
 ![React](https://img.shields.io/badge/React-19-61DAFB)
 ![Tailwind](https://img.shields.io/badge/Tailwind-4-38B2AC)
 
-## ✨ Features
+## Features
 
-### 📊 Budget Tracking
+### Budget Tracking
 - **Income & Expense Management** - Track all your financial transactions
 - **Category-wise Breakdown** - Visual progress bars for spending by category
 - **Smart Insights** - AI-powered alerts on spending patterns
 - **Savings Rate Calculator** - Monitor your financial health
 
-### 📈 Investment Guidance
+### Investment Guidance
 - **Risk Profile Selector** - Conservative, Balanced, and Aggressive portfolios
 - **SIP Calculator** - Calculate future returns on systematic investments
 - **Asset Allocation** - Visual representation of portfolio distribution
 - **Investment Options** - Curated list of FD, PPF, Index Funds, Stocks, and more
 
-### 📚 Financial Literacy
-- **Educational Lessons** - Bite-sized financial education content
+### Financial Literacy
+- **Educational Lessons** - Bite-sized financial education with curated external links
 - **Financial Glossary** - Key terms explained simply
 - **Daily Tips** - Actionable money management advice
 - **Quick Rules** - 50/30/20 budgeting and other golden rules
 
-### 🎨 Modern UI/UX
-- **Dark Theme** - Professional navy/purple color scheme
+### Modern UI/UX
+- **Dark Theme** - Professional navy/teal color scheme (#022B3B, #1F7A8C, #BFD8F2)
+- **Schematic Icons** - Clean line icons replacing emoji
 - **Responsive Design** - Works on all devices
 - **Interactive Elements** - Smooth transitions and hover effects
 - **Card-based Layout** - Clean, modern interface
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Framework:** Next.js 16 (App Router)
 - **Frontend:** React 19, TypeScript
@@ -44,7 +45,7 @@ A comprehensive personal finance application built with Next.js, featuring budge
 - **Authentication:** Supabase Auth
 - **Deployment:** Vercel
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -61,7 +62,7 @@ cp .env.example .env.local
 npm run dev
 ```
 
-## 🔧 Environment Variables
+## Environment Variables
 
 Create a `.env.local` file with:
 
@@ -70,32 +71,32 @@ NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
-## 📱 Pages
+## Pages
 
 - **/** - Landing page with feature showcase
 - **/dashboard** - Financial overview with insights
 - **/add** - Add income/expense transactions
 - **/invest** - Investment guidance and SIP calculator
-- **/learn** - Financial literacy content
+- **/learn** - Financial literacy content with external resources
 - **/budget** - Budget tracking by category
 - **/login** - Authentication
 
-## 🎯 Key Highlights
+## Key Highlights
 
 1. **Smart Insights** - Automated analysis of spending patterns
 2. **Investment Calculator** - Plan your financial future
 3. **Category Budgets** - Set and track limits for each spending category
 4. **Risk-based Recommendations** - Personalized investment suggestions
-5. **Financial Education** - Learn while you manage
+5. **Financial Education** - Learn while you manage with curated external links
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
+## License
 
 This project is open source and available under the MIT License.
 
 ---
 
-Built with ❤️ by [Devdatta Patil](https://github.com/devdattapatilll)
+Built by [Devdatta Patil](https://github.com/devdattapatilll)
