@@ -110,8 +110,8 @@ export default function InvestmentPage() {
     <div className="space-y-8">
       {/* Header */}
       <div>
-        <h1 className="text-3xl font-bold">💼 Investment Guidance</h1>
-        <p className="text-muted mt-1">Smart portfolio recommendations based on your risk profile</p>
+        <h1 className="text-3xl font-bold text-[#BFD8F2]">Investment Guidance</h1>
+        <p className="text-[#7A8FA3] mt-1">Smart portfolio recommendations based on your risk profile</p>
       </div>
 
       {/* Risk Profile Selector */}
