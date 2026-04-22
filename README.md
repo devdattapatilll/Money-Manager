@@ -3,8 +3,10 @@
   <p><b>A personal finance web application built for the Blostem Hackathon.</b></p>
   <p><i>Helping individuals in India track expenses, manage budgets, get investment guidance, and build financial literacy, all in one place.</i></p>
   
-  <a href="https://money-manager-vxuh.vercel.app" target="_blank">
-    <strong>View Live Demo</strong>
+  <a href="https://app.supademo.com/demo/cmoagotp6013wd1ilr1suz9x0?utm_source=link" target="_blank">
+    <strong>User Walkthrough Demo</strong>
+    
+    
   </a>
 </div>
 
@@ -49,18 +51,6 @@
   <li>Daily actionable tips and summarized money rules (50/30/20, etc.).</li>
 </ul>
 
-<hr />
-
-##  Demo Video
-
-<div align="center">
-  <a href="https://app.supademo.com/demo/cmoagotp6013wd1ilr1suz9x0?utm_source=link" target="_blank">
-    <h3><strong>📺 Watch the Interactive Demo on Supademo</strong></h3>
-  </a>
-  <p><i>The walkthrough covers: adding transactions, tracking category budgets, using the SIP calculator, exploring investment options, and navigating financial literacy content.</i></p>
-</div>
-
-<hr />
 
 ##  Tech Stack
 
