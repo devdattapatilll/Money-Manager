@@ -51,23 +51,27 @@ export default function Login() {
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
-          <div className="w-16 h-16 mx-auto bg-linear-to-br from-primary to-secondary rounded-2xl flex items-center justify-center text-3xl shadow-lg shadow-primary/25 mb-4">
-            💰
+          <div className="w-16 h-16 mx-auto bg-[#1F7A8C] rounded-2xl flex items-center justify-center text-white mb-4 shadow-lg">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="2" y="5" width="20" height="14" rx="2" />
+              <line x1="2" y1="10" x2="22" y2="10" />
+              <line x1="7" y1="15" x2="7.01" y2="15" />
+            </svg>
           </div>
-          <h1 className="text-2xl font-bold">Welcome Back</h1>
-          <p className="text-muted mt-1">Sign in to manage your finances</p>
+          <h1 className="text-2xl font-bold text-[#BFD8F2]">Welcome Back</h1>
+          <p className="text-[#7A8FA3] mt-1">Sign in to manage your finances</p>
         </div>
 
         {/* Form Card */}
-        <div className="p-8 bg-card border border-border rounded-2xl shadow-xl">
+        <div className="p-8 bg-[#04384D] border border-[#1F7A8C] rounded-2xl shadow-xl">
           {/* Tabs */}
-          <div className="grid grid-cols-2 gap-2 p-1 bg-background rounded-xl mb-6">
+          <div className="grid grid-cols-2 gap-2 p-1 bg-[#022B3B] rounded-xl mb-6">
             <button
               onClick={() => setMode("login")}
               className={`py-2 rounded-lg text-sm font-medium transition-colors ${
                 mode === "login"
-                  ? "bg-primary text-white"
-                  : "text-muted hover:text-foreground"
+                  ? "bg-[#1F7A8C] text-white"
+                  : "text-[#7A8FA3] hover:text-[#E2E6F3]"
               }`}
             >
               Sign In
@@ -76,8 +80,8 @@ export default function Login() {
               onClick={() => setMode("signup")}
               className={`py-2 rounded-lg text-sm font-medium transition-colors ${
                 mode === "signup"
-                  ? "bg-primary text-white"
-                  : "text-muted hover:text-foreground"
+                  ? "bg-[#1F7A8C] text-white"
+                  : "text-[#7A8FA3] hover:text-[#E2E6F3]"
               }`}
             >
               Sign Up
@@ -87,44 +91,44 @@ export default function Login() {
           {/* Form */}
           <div className="space-y-4">
             <div>
-              <label className="text-sm text-muted mb-2 block">Email</label>
+              <label className="text-sm text-[#7A8FA3] mb-2 block">Email</label>
               <input
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="you@example.com"
-                className="w-full px-4 py-3 bg-background border border-border rounded-xl focus:border-primary focus:outline-none transition-colors"
+                className="w-full px-4 py-3 bg-[#022B3B] border border-[#1F7A8C] rounded-xl text-[#E2E6F3] focus:border-[#BFD8F2] focus:outline-none transition-colors"
               />
             </div>
 
             <div>
-              <label className="text-sm text-muted mb-2 block">Password</label>
+              <label className="text-sm text-[#7A8FA3] mb-2 block">Password</label>
               <input
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="••••••••"
-                className="w-full px-4 py-3 bg-background border border-border rounded-xl focus:border-primary focus:outline-none transition-colors"
+                className="w-full px-4 py-3 bg-[#022B3B] border border-[#1F7A8C] rounded-xl text-[#E2E6F3] focus:border-[#BFD8F2] focus:outline-none transition-colors"
               />
             </div>
 
             <button
               onClick={handleSubmit}
               disabled={loading}
-              className="w-full py-3 bg-linear-to-r from-primary to-secondary text-white font-semibold rounded-xl shadow-lg shadow-primary/25 hover:shadow-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full py-3 bg-[#1F7A8C] text-white font-semibold rounded-xl shadow-lg hover:bg-[#166670] transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {loading ? "Please wait..." : mode === "login" ? "Sign In" : "Create Account"}
             </button>
           </div>
 
           {/* Footer */}
-          <div className="mt-6 text-center text-sm text-muted">
+          <div className="mt-6 text-center text-sm text-[#7A8FA3]">
             {mode === "login" ? (
               <>
                 Don't have an account?{" "}
                 <button
                   onClick={() => setMode("signup")}
-                  className="text-primary hover:underline font-medium"
+                  className="text-[#1F7A8C] hover:text-[#BFD8F2] hover:underline font-medium"
                 >
                   Sign up
                 </button>
@@ -134,7 +138,7 @@ export default function Login() {
                 Already have an account?{" "}
                 <button
                   onClick={() => setMode("login")}
-                  className="text-primary hover:underline font-medium"
+                  className="text-[#1F7A8C] hover:text-[#BFD8F2] hover:underline font-medium"
                 >
                   Sign in
                 </button>
@@ -145,7 +149,7 @@ export default function Login() {
 
         {/* Back to Home */}
         <div className="text-center mt-6">
-          <Link href="/" className="text-sm text-muted hover:text-foreground transition-colors">
+          <Link href="/" className="text-sm text-[#7A8FA3] hover:text-[#E2E6F3] transition-colors">
             ← Back to home
           </Link>
         </div>
